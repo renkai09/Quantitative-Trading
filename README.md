@@ -69,8 +69,8 @@
 請確認系統已安裝 Python 3.9+。
 ```bash
 # 複製儲存庫
-git clone https://github.com/renkai09/Financial-Data-Scraping-and-DCA-Comparison.git
-cd Financial-Data-Scraping-and-DCA-Comparison
+git clone https://github.com/renkai09/Quantitative-Trading.git
+cd Quantitative-Trading
 
 # 安裝所需套件
 pip install -r requirements.txt
@@ -99,7 +99,7 @@ python -m http.server 8000
 ## 📂 專案結構 (Project Structure)
 
 ```text
-Financial-Data-Scraping-and-DCA-Comparison/
+Quantitative-Trading/
 ├── generate_data.py       # 核心回測引擎與資料處理腳本
 ├── requirements.txt       # Python 相依套件清單
 ├── README.md              # 專案說明文件
