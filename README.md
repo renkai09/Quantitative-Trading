@@ -97,7 +97,7 @@ Quantitative-Trading/
 ├── README.md              # 專案說明文件
 ├── data/                  # 包含生成的價格資料、回測結果 (CSV/JSON)
 ├── report.docx            # 專案報告與深度分析
-└── slide.pdf              # 專案簡報 (可用於面試/推甄展示)
+└── slide.pdf              # 專案簡報 
 ```
 
 ---
