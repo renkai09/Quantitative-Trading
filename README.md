@@ -9,8 +9,7 @@
 
 > **專案簡介 / Project Overview**
 > 此專案為一套從零建構的**量化交易回測引擎與資料抓取管線**，結合統計套利（配對交易）與傳統技術指標（SMA 均線交叉、DCA 定期定額）。本專案具備完整的前後期（Walk-forward）時間驗證機制以避免前視偏誤（Look-ahead Bias），並產出豐富的交易訊號、權益曲線及績效指標（Sharpe Ratio, Max Drawdown 等），最終將數據匯出供互動式儀表板（Dashboard）呈現。
-> 
-> *註：本專案為研究所推甄/專題之展示作品，展現包含數據處理、金融建模、演算法設計及軟體工程之綜合能力。*
+
 
 ---
 
@@ -86,13 +85,6 @@ python generate_data.py --refresh
 ```
 > 執行完畢後，所有回測結果將輸出至 `data/` 資料夾，包含交易明細 (`strategy_signals.csv`)、每日權益變化 (`equity_curves.csv`)、績效統整 (`strategy_performance.csv`) 等。
 
-### 3. 啟動互動式儀表板 (Dashboard)
-本專案自帶輕量化前端 Dashboard 視覺化回測數據：
-```bash
-# 啟動本地端伺服器
-python -m http.server 8000
-```
-接著請開啟瀏覽器訪問 👉 [http://localhost:8000](http://localhost:8000)
 
 ---
 
